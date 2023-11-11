@@ -7,7 +7,7 @@ const app = express();
 
 //connect to mongoDb
 const dbURI =
-  "mongodb+srv://nodetuts:FinbCWbJEcNxpvzL@nodetuts.7c0usxw.mongodb.net/note-tuts?retryWrites=true&w=majority";
+  "mongodb dbstring";
 
 mongoose
   .connect(dbURI)
